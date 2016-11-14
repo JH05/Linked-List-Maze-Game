@@ -1,0 +1,3 @@
+A->SetEast(B);
+B->SetEast(C);
+C->SetEast(L); 
