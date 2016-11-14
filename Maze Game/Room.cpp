@@ -2,7 +2,7 @@
 
 Room::Room()
 {
-	north, east, south, west = NULL;
+	//north, east, south, west = NULL;
 }
 
 Room::~Room() 
@@ -13,7 +13,7 @@ Room::~Room()
 Room::Room(string name)
 {
 	roomName = name;
-	north, east, south, west = NULL;
+	//north, east, south, west = NULL;
 }
 
 void Room::setNorth(Room* next)
